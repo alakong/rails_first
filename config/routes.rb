@@ -6,5 +6,11 @@ Rails.application.routes.draw do
   get '/lotto'=>'home#lotto'#처음에 /lotto로 url 요청이 들어오면 home이라는 컨트롤러에서 lotto액션으로 가라는 코드
   get '/index' =>'home#index'
   get '/welcome/:name'=>'home#welcome'
+  get '/google'=>'home#google'
+  get '/game' =>'home#game'
+  get '/gameresult' =>'home#gameresult'
+  get '/random'=>'home#random'
+  get '/randomresult'=>'home#randomresult'
+
 
 end
